@@ -17,7 +17,7 @@ public class Problema04 {
         Scanner entrada = new Scanner(System.in);
         double[][] datos = new double[2][2];
         double d = 0;
-
+        int x=0;
         for (int f = 0; f < datos.length; f++) {
             for (int c = 0; c < datos[f].length; c++) {
                 System.out.println(" Ingrese los valores del arreglo[" + f + "]" 
@@ -27,6 +27,7 @@ public class Problema04 {
                     datos[f][c] = d;
                 } else {
                     datos[f][c] = 10;
+                    x++;
                 }
             }
 
@@ -38,6 +39,8 @@ public class Problema04 {
             }
 
         }
+        
+         System.out.println("\nValores fuera de rango:"+x);
 
     }
 

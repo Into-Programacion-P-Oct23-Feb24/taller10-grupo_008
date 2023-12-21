@@ -15,7 +15,7 @@ public class Problema00 {
                             {10, 5, 7, 9}, 
                             {7, 9.4, 10, 9}};
         String[] nombresEstudiante = {"Jose A", "Elena J", "Paúl L"};
-        double[] sumaNotas = new double[3];
+        double[]sumaNotas = new double[3]; 
                             
         double suma = 0;
         String reporte = "";
